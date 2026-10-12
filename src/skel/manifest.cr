@@ -15,7 +15,7 @@
 Partiduo::Modules.register do
   code "SKEL"
   name "skel.module.name"
-  version "0.1.0"
+  version Skel::VERSION
   requires_core "~> 0.1"
   depends_on "ACCOUNTING"
 
